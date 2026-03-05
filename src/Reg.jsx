@@ -28,8 +28,8 @@ function Reg()
         <>
         <h1>I am app</h1>
         <input onChange={changeName} name="username" placeholder="enter username"/>
-        <input onChange={changeName} name="email" placeholder="enter email"/>
-        <input onChange={changeName} name="password" placeholder="enter password"/>
+        <input onChange={changeName} name="email" placeholder="enter email" type="email"/>
+        <input onChange={changeName} name="password" placeholder="enter password" type="password"/>
         <button onClick={submit}>register</button>
         </>
     )
