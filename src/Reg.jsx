@@ -15,7 +15,7 @@ function Reg()
     const submit=async()=>{
         try{
             const res= await axios.post(
-                "https://newproject-backend-1.onrender.com",data
+                "https://newproject-backend-1.onrender.com/register",data
             )
             alert(res.data)
         }
